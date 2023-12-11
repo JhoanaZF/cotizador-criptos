@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
 import { useState } from "react";
+import styled from "@emotion/styled";
 
 const Label = styled.label`
   color: #fff;
@@ -9,7 +9,6 @@ const Label = styled.label`
   font-weight: 700;
   margin: 15px 0;
 `;
-
 const Select = styled.select`
   width: 100%;
   font-size: 18px;
@@ -17,11 +16,12 @@ const Select = styled.select`
   border-radius: 10px;
 `;
 
-export const useSelectMonedas = (label, opciones) => {
+const useSelectMonedas = (label, opciones) => {
   const [state, setState] = useState("");
+
   const SelectMonedas = () => (
     <>
-      <Label htmlFor=''>{label}</Label>
+      <Label>{label}</Label>
       <Select
         value={state}
         onChange={(e) => setState(e.target.value)}>
@@ -36,5 +36,8 @@ export const useSelectMonedas = (label, opciones) => {
       </Select>
     </>
   );
+
   return [state, SelectMonedas];
 };
+
+export default useSelectMonedas;

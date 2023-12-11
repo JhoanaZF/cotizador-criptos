@@ -3,7 +3,7 @@
 ## Índice
 
 - [1. Resumen del proyecto](#1-resumen-del-proyecto)
-- [2. Características](#2-caracteristicas)
+- [2. Características](#2-características)
 
 ---
 

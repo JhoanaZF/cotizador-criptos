@@ -11,7 +11,7 @@
 
 Este proyecto es un cotizador de criptomonedas desarrollado en React utilizando Vite como entorno de desarrollo. Se emplean Styled Components para la estilización del proyecto, y se implementan custom hooks para mejorar la modularidad y reutilización del código.
 
-## 2. Características:
+## 2. Características
 
 Styled Components: La interfaz de usuario se ha construido utilizando Styled Components, lo que permite un manejo más eficiente y mantenible del estilo del proyecto.
 
